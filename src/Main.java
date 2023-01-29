@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -10,9 +10,10 @@ public class Main {
         //Ваша задача
         //Создать приложение, рассчитывающее количество начисленных миль за купленный билет.
         // Стоимость билета вы выбираете сами — сами заполняете переменную, в которой она будет храниться.
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Введите сумму покупки:");
-        int ticketPrice = scan.nextInt();
+
+
+        int ticketPrice = 1253;
+        System.out.println("Вы получаете 1 бонусную милю за каждые 20 рублей Вашей покупки.");
         System.out.println("Сумма покупки составляет:" + ticketPrice);
 
         int milePrice = 20;
